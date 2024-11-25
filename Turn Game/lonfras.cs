@@ -1,4 +1,5 @@
 using System;
+using turngame.items;
 
 namespace turngame.lonfras
 {
@@ -18,6 +19,8 @@ namespace turngame.lonfras
         int hp { get; set; } = 0;
         int damage { get; set; } = 0;
         int shield { get; set; } = 0;
+
+        ItemDatabase items = new ItemDatabase();
 
         public Lonfras()
         {
@@ -57,6 +60,40 @@ namespace turngame.lonfras
             Console.WriteLine($"Life: {hp}HP");
             Console.WriteLine($"Damage: {damage}");
             Console.WriteLine($"Shield: {shield}");
+        }
+
+        public void useItem(string name)
+        {   
+            Items item = items.getItemByName(name);
+
+            if (item == null)
+            {
+                Console.WriteLine($"{item} does not exist"); return;
+            }   
+            else if (hp >= 100)
+            {
+                Console.WriteLine("Lonfras have full HP");            
+            }
+            else if (shield >= 100)
+            {
+                Console.WriteLine("Lonfras have full Shield");
+            }
+
+            hp += item.gainHp;
+            shield += item.gainShield;
+
+            if (hp > 100)
+            {
+                hp = 100;
+            }
+            else if (shield > 100)
+            {
+                shield = 100;
+            }
+            damage += item.gainDmg;
+
+            Console.WriteLine($"Used Item: {name}");
+            displayAtributes();
         }
     }
 }

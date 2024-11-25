@@ -14,6 +14,8 @@ namespace turngame
             enemy.displayEnemyAtributes();
             Console.WriteLine(" ");
             lonfras.displayAtributes();
+            Console.WriteLine(" ");
+            lonfras.useItem("Potion");
         }
     }
 }
