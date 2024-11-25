@@ -1,0 +1,15 @@
+D:\Turn\Turn Game\bin\Debug\net9.0\Turn Game.exe
+D:\Turn\Turn Game\bin\Debug\net9.0\Turn Game.deps.json
+D:\Turn\Turn Game\bin\Debug\net9.0\Turn Game.runtimeconfig.json
+D:\Turn\Turn Game\bin\Debug\net9.0\Turn Game.dll
+D:\Turn\Turn Game\bin\Debug\net9.0\Turn Game.pdb
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.AssemblyInfoInputs.cache
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.AssemblyInfo.cs
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.csproj.CoreCompileInputs.cache
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.sourcelink.json
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.dll
+D:\Turn\Turn Game\obj\Debug\net9.0\refint\Turn Game.dll
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.pdb
+D:\Turn\Turn Game\obj\Debug\net9.0\Turn Game.genruntimeconfig.cache
+D:\Turn\Turn Game\obj\Debug\net9.0\ref\Turn Game.dll

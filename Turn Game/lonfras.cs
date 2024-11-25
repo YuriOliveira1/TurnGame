@@ -19,6 +19,14 @@ namespace turngame.lonfras
         int damage { get; set; } = 0;
         int shield { get; set; } = 0;
 
+        public Lonfras()
+        {
+            this.name = name;
+            this.experience = experience;
+            this.level = level;
+            generateAtributes();
+        }
+
         public void generateAtributes()
         {
             if (type == Style.Warrior)
