@@ -11,14 +11,14 @@ namespace turngame.lonfras
     }
     public class Lonfras
     {
-        string name { get; set; } = "Lonfras Foixt";
-        float experience { get; set; } = 0.0f;
-        int level { get; set; } = 0;
-        string[] inventory { get; set; } = { };
-        Style type { get; set; } = Style.Warrior;
-        int hp { get; set; } = 0;
-        int damage { get; set; } = 0;
-        int shield { get; set; } = 0;
+        public string name { get; set; } = "Lonfras Foixt";
+        public float experience { get; set; } = 0.0f;
+        public int level { get; set; } = 0;
+        public string[] inventory { get; set; } = { };
+        public Style type { get; set; } = Style.Warrior;
+        public int hp { get; set; } = 0;
+        public int damage { get; set; } = 0;
+        public int shield { get; set; } = 0;
 
         ItemDatabase items = new ItemDatabase();
 
