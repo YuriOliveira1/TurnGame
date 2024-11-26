@@ -14,9 +14,9 @@ namespace turngame.enemy
     public class Enemy
     {
         Monster monster;
-        int damage = 0;
-        int hp = 0;
-        int shield = 0;
+        public int damage = 0;
+        public int hp = 0;
+        public int shield = 0;
         Random random = new Random();
 
         public Enemy()
